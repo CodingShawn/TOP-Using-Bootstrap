@@ -1,0 +1,36 @@
+body {
+    background-color: #f4f5f6;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.container-fluid {
+    max-width: 1310px;
+}
+
+
+
+.header-top {
+    background-color: #f72210;
+    color: white;
+    fill: white;
+    padding: 20px 10px 15px 10px;
+}
+
+.login {
+    font-weight: 700;
+    padding: 0 15px;
+    margin: 4px 0;
+    font-size: 18px;
+}
+
+.subscribe-btn {
+    margin-right: 14px;
+    margin-left: 10px;
+    border-radius: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #ffe400;
+    color: #000000;
+    padding: 0 15px;
+    margin: 4px 8px 4px 10px;
+}
