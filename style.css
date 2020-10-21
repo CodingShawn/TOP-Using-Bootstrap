@@ -3,11 +3,14 @@ body {
     font-family: "Roboto Condensed", sans-serif;
 }
 
-.container-fluid {
-    max-width: 1310px;
+li {
+    list-style-type: none;
 }
 
-
+.container-fluid {
+    max-width: 1310px;
+    background-color: white;
+}
 
 .header-top {
     background-color: #f72210;
@@ -33,4 +36,32 @@ body {
     color: #000000;
     padding: 0 15px;
     margin: 4px 8px 4px 10px;
+}
+
+.navbar {
+    padding: 15px 0;
+}
+
+#navbarNav li {
+    flex-grow: 1;
+    display: block;
+    border-right: 1px solid #d9d9d9;
+    text-align: center;
+
+}
+
+#navbarNav li:last-child {
+    border: none;
+}
+
+#navbarNav .nav-link {
+    display: inline-block;
+    color: #000000;
+    font-weight: 700;
+    font-size: 19px;
+    padding: 0;
+}
+
+#navbarNav .nav-link:hover {
+    color: #f72210;
 }
