@@ -7,7 +7,7 @@ li {
     list-style-type: none;
 }
 
-.container-fluid {
+.container {
     max-width: 1310px;
     background-color: white;
 }
@@ -16,7 +16,26 @@ li {
     background-color: #f72210;
     color: white;
     fill: white;
-    padding: 20px 10px 15px 10px;
+    padding: 5px 0;
+}
+
+.logo-wrapper {
+    padding-bottom: 5px;
+}
+
+.logo {
+    width: 132px;
+    height: 20px;
+}
+
+@media screen and (min-width:992px) {
+    .logo {
+        width: 396px;
+        height: 60px;
+    }
+    .header-top {
+        padding: 20px 10px 15px 10px;
+    }
 }
 
 .login {
@@ -36,10 +55,29 @@ li {
     color: #000000;
     padding: 0 15px;
     margin: 4px 8px 4px 10px;
+    white-space: nowrap;
 }
 
-.navbar {
-    padding: 15px 0;
+.topics-nav {
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+
+.topics-nav::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    width: 66px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+}
+
+#navbarNav {
+    padding: 0;
+    margin: 0;
 }
 
 #navbarNav li {
@@ -62,6 +100,36 @@ li {
     padding: 0;
 }
 
+#navbarNav span {
+    color: #ffffff;
+}
+
 #navbarNav .nav-link:hover {
     color: #f72210;
+}
+
+.trending-topics {
+    border-top: 2px solid rgb(244, 245, 247);
+    border-bottom: 2px solid rgb(244, 245, 247);
+}
+
+.trending-topics .disabled {
+    color: black;
+}
+
+.trending-topics a {
+    color: #807f84;
+    font-weight: 700;
+    font-size: 16px;
+    flex: none;
+}
+
+.trending-topics a:hover {
+    color: #f72210;
+}
+
+#search {
+    border: none;
+    font-size: 16px;
+    font-family: arial;
 }
