@@ -161,6 +161,12 @@ li {
     font-size: 24px;
     font-weight: 700;
     margin-top: 5px;
+    color: black;
+}
+
+.featured-story-title:hover {
+    cursor: pointer;
+    text-decoration: underline #f72210;
 }
 
 .featured-story-image-wrapper {
@@ -183,4 +189,13 @@ li {
     font-family: arial;
     font-size: 15px;
     color: #333333;
+}
+
+.sponsored-category {
+    color: #3581f4;
+}
+
+.sponsored-content {
+    border: 1px solid #e6e6e6;
+    padding: 20px;
 }
