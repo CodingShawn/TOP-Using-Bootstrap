@@ -169,7 +169,7 @@ li {
     text-decoration: underline #f72210;
 }
 
-.featured-story-image-wrapper {
+.image-wrapper {
     position: relative;
 }
 
@@ -199,6 +199,7 @@ li {
     font-family: arial;
     font-size: 15px;
     color: #333333;
+    font-weight: 400;
 }
 
 .sponsored-category {
@@ -208,4 +209,32 @@ li {
 .sponsored-content {
     border: 1px solid #e6e6e6;
     padding: 20px;
+}
+
+/* Top story styling */
+
+.top-story-image {
+    position: relative;
+    padding-bottom: 62%;
+}
+
+.my-turn-wrapper {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
+.my-turn-article {
+    padding-left: 10px;
+    padding-right: 10px;
+    flex: 1;
+}
+
+.my-turn-image {
+    padding-bottom: 100%;
+}
+
+.my-turn-caption {
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
