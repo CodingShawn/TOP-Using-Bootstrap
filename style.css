@@ -173,6 +173,16 @@ li {
     position: relative;
 }
 
+.featured-story-image {
+    position: relative;
+    padding-bottom: 67%;
+}
+
+.img-fluid {
+    position: absolute;
+    width: 100%;
+}
+
 .category {
     position: absolute;
     bottom: 0;
