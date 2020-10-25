@@ -325,17 +325,22 @@ li {
 
 /* Debate styling */
 
+.debate {
+    margin-bottom: 30px;
+}
+
 .top-debate {
     border-top: 4px solid rgb(217, 217, 217);
     padding-top: 10px;
 }
 
-.debate-img {
+.mugshot-wrapper {
     width: 63px;
     height: 63px;
+    flex-shrink: 0;
 }
 
-.debate-mugshot {
+.mugshot {
     max-width: 100%;
 }
 
@@ -348,6 +353,7 @@ li {
 .debater {
     color: #555555;
     font-size: 14px;
+    font-weight: 700;
 }
 
 
@@ -404,4 +410,33 @@ li {
 
 .debate-info-bottom {
     padding-right: 15px;
+}
+
+/* Opinion styling */
+
+.opinion {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.opinion:nth-child(2) {
+    padding-top: 0;
+    border: none;
+}
+
+.opinion-info {
+    padding-left: 15px;
+}
+
+.opinion-stand {
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.opinion-author {
+    color: #555555;
+    font-size: 14px;
+    font-weight: 700;
 }
