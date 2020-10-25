@@ -145,6 +145,60 @@ li {
     font-family: arial;
 }
 
+/* Column positioning */
+
+.col1 {
+    width: 71%;
+}
+
+.right-column {
+    width: 29%;
+    padding-left: 15px;
+}
+
+.left-column {
+    width: 41%;
+    padding-right: 15px;
+}
+
+.mid-column {
+    width: 58%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .col1 {
+        width: 100%
+    }
+
+    .right-column {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .mid-column {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .left-column {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .mid-column {
+        width: 100%;
+        padding-left: 0;
+    }
+}
+
 /* Top stories styling */
 
 .top-stories-header {
@@ -288,6 +342,7 @@ li {
 .debate-stand {
     color: black;
     font-size: 17px;
+    font-weight: 700;
 }
 
 .debater {
