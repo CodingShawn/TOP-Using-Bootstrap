@@ -595,3 +595,79 @@ li {
     margin-top: 5px;
     color: black;
 }
+
+/* Subscribe section styling */
+
+.subscribe-block {
+    padding-top: 40px;
+    border-top: 1px solid rgb(217, 217, 217);
+}
+
+.subscribe-title {
+    color: #f72210;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.subscribe-article {
+    background-color: #f4f5f6;
+    padding: 30px;
+}
+
+.subscribe-img {
+    position: relative;
+    padding-right: 90px;
+}
+
+.previous-subscribe-img {
+    position: relative;
+}
+
+.current-subscribe-img {
+    position: absolute;
+    top: 13px;
+    left: 80px;
+}
+
+.subscribe-info {
+    padding-left: 30px;
+}
+
+.subscribe-header {
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.subscribe-text {
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.subscribe-btn-2 {
+    background-color: #f72310;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    border: none;
+    padding: 10px 10px 10px 12px;
+    line-height: 18px;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 767px) {
+    .subscribe-article {
+        text-align: center;
+    }
+
+    .subscribe-img {
+        padding-bottom: 30px;
+    }
+
+    /* .current-subscribe-img {
+        left: 257px;
+    } */
+
+}
