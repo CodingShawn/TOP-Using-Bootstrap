@@ -234,6 +234,7 @@ li {
 .featured-story-image {
     position: relative;
     padding-bottom: 67%;
+    overflow: hidden;
 }
 
 .img-fluid {
@@ -450,6 +451,12 @@ li {
     font-weight: 700;
 }
 
+.right-column .featured-story {
+    max-width: 336px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* Magazine styling */
 
 .magazines-title {
@@ -524,4 +531,16 @@ li {
     font-size: 20px;
     color: black;
     line-height: 20px;
+}
+
+/* Editor's pick styling */
+
+.editor-picks-title {
+    color: #333333;
+    font-weight: 700;
+    font-size: 19px;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
 }
