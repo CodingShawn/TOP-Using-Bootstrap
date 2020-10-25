@@ -657,6 +657,17 @@ li {
     white-space: nowrap;
 }
 
+.newsletter-img {
+    background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
+    width: 48%;
+}
+
+.newsletter-info {
+    padding: 30px;
+    border: 1px solid rgb(235, 235, 235);
+    width: 52%;
+}
+
 @media screen and (max-width: 767px) {
     .subscribe-article {
         text-align: center;
@@ -666,8 +677,18 @@ li {
         padding-bottom: 30px;
     }
 
-    /* .current-subscribe-img {
-        left: 257px;
-    } */
+    .newsletter-article {
+        flex-direction: column;
+    }
 
+    .newsletter-img {
+        height: 170px;
+        width: 100%;
+    }
+
+    .newsletter-info {
+        width: 100%;
+        text-align: center;
+    }
 }
+
