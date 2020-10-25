@@ -238,3 +238,33 @@ li {
     padding-top: 15px;
     padding-bottom: 20px;
 }
+
+/* More stories section */
+
+.more-stories {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    grid-column-gap: 15px;
+    grid-row-gap: 5px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.more-stories-image {
+    width: 95px;
+    grid-row: 1 / span 2;
+}
+
+.more-stories-title {
+    color: black;
+    font-size: 17px;
+}
+
+.more-stories-summary {
+    font-size: 15px;
+    color: #333333;
+    font-weight: 400;
+}
