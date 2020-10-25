@@ -486,7 +486,7 @@ li {
     width: auto;
     height: 100%;
     position: absolute;
-    transform: translate(-20%, 0);
+    transform: translate(-18%, 0);
 }
 
 .mag-image-padder {
@@ -543,4 +543,55 @@ li {
     padding-bottom: 8px;
     margin-bottom: 15px;
 }
+
+/* Section pick styling */
+
+.section-picks {
+    margin-bottom: 30px;
+}
+
+.section-pick-title {
+    color: #f72210;
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 25px;
+    padding-bottom: 11px;
+    border-top: 1px solid rgb(217, 217, 217);
+}
+
+.category-article {
+    margin-bottom: 25px;
+}
+
+.small-articles > * {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.small-articles article:first-child {
+    padding-top: 0;
+    border-top: none;
+}
+
+.small-img {
+    width: 110px;
+    height: 110px;
+    position: relative;
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+
+.category-story-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 5px;
+    color: black;
+}
+
+.category-story-title-small {
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 5px;
+    color: black;
 }
