@@ -691,6 +691,10 @@ li {
         width: 100%;
         text-align: center;
     }
+
+    .subscribe-info {
+        padding: 0;
+    }
 }
 
 /* Footer styling */
